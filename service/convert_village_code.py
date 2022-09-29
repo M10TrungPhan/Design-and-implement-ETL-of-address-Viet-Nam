@@ -5,12 +5,13 @@ import re
 import os
 import random
 from glob import glob
-
+import logging
 
 class ConvertVillageCode:
 
     def __init__(self, path_save_data: str):
         self.path_save_data = path_save_data
+        self.logger = logging.getLogger(self.__class__.__name__)
         self.village_dataframe = None
         self.address_government = None
         self.province_dict = {}
@@ -160,6 +161,7 @@ class ConvertVillageCode:
         json.dump(data, open(self.path_save_data + name_file, "w", encoding="utf-8"), indent=4, ensure_ascii=False)
 
     def convert_data(self):
+        self.logger.info("START CONVERT VILLAGE CODE")
         self.load_total_data()
         self.load_village_json_file()
         self.load_address_government()
@@ -174,6 +176,7 @@ class ConvertVillageCode:
         self.extract_province_dict()
         self.total_data = self.total_data + self.process_data_village()
         self.save_data(self.total_data, "final_village.json")
+        self.logger.info("FINISH CONVERT VILLAGE CODE")
 
 
 if __name__ == "__main__":

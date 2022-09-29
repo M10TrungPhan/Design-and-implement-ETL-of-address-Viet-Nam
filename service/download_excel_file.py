@@ -16,7 +16,7 @@ class DownloadExcelFile:
         self.url = "https://danhmuchanhchinh.gso.gov.vn/"
 
     def setup_selenium_firefox(self):
-        ser = Service("D:/trungphan/crawl_addresss/chromedriver_win32/geckodriver.exe")
+        ser = Service("driverbrowser/geckodriver.exe")
         firefox_options = FirefoxOptions()
         firefox_options.set_preference("media.volume_scale", "0.0")
         firefox_options.set_preference('devtools.jsonview.enabled', False)

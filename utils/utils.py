@@ -1,6 +1,5 @@
 import os
-import time
-import random
+import logging
 import string
 import re
 
@@ -9,9 +8,11 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
+from config.config import Config
+
 
 def setup_selenium_firefox():
-    ser = Service("D:/trungphan/crawl_addresss/chromedriver_win32/geckodriver.exe")
+    ser = Service("driverbrowser/geckodriver.exe")
     firefox_options = FirefoxOptions()
     firefox_options.set_preference("media.volume_scale", "0.0")
     firefox_options.set_preference('devtools.jsonview.enabled', False)
@@ -128,4 +129,19 @@ def process_invalid_word(word):
         else:
             word_after_process = word_after_process + each + " "
     word_after_process = re.sub(r"\s{2,}", " ", word_after_process)
-    return word_after_process.title().strip()
+    return word_after_process.strip()
+
+
+def setup_logging():
+    config = Config()
+    os.makedirs(config.logging_folder, exist_ok=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s | %(name)s | [%(levelname)s] | %(message)s",
+        handlers=[
+            logging.FileHandler(os.path.join(config.logging_folder, "crawl_data.log"), encoding="utf8"),
+            logging.StreamHandler()
+        ]
+    )
+
+setup_logging()

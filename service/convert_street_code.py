@@ -1,8 +1,6 @@
-import os
 import random
-import re
-import pandas
 import hashlib
+import logging
 
 from utils.utils import *
 import pandas as pd
@@ -14,6 +12,7 @@ class ConvertStreetCode:
 
     def __init__(self, path_save_data: str):
         self.path_save_data = self.preprocess_directory_save_data(path_save_data)
+        self.logger = logging.getLogger(self.__class__.__name__)
         self.street_code_not_existed = []
         self.total_data = []
         self.street_file = None
@@ -24,6 +23,10 @@ class ConvertStreetCode:
         self.list_street_code_not_selected = []
         self.list_street_code_existed = []
         self.number_total_code = 1000
+        self.dict_street_alias = {}
+        self.dict_province_alias = {}
+        self.dict_ward_alias = {}
+        self.dict_district_alias = {}
 
     @staticmethod
     def preprocess_directory_save_data(directory):
@@ -114,6 +117,86 @@ class ConvertStreetCode:
             self.total_data = []
         return self.total_data
 
+    def load_alias_name_street(self):
+        dict_street_alias = {}
+        name_file = "alias_street.json"
+        if name_file in os.listdir(self.path_save_data):
+            alias_street = json.load(open(self.path_save_data + name_file, "r", encoding="utf-8"))
+        else:
+            alias_street = []
+        for each in alias_street:
+            list_alias = each["tags"].copy()
+            list_alias_new = []
+            for al in list_alias:
+                if len(al) <= 2:
+                    continue
+                else:
+                    list_alias_new.append(al)
+            # list_alias_new = [alias for alias in list_alias if len(alias) > 2]
+            dict_street_alias[each["StreetName"].lower()] = list_alias_new
+        self.dict_street_alias = dict_street_alias
+        return self.dict_street_alias
+
+    def load_alias_name_province(self):
+        dict_province_alias = {}
+        name_file = "alias_province.json"
+        if name_file in os.listdir(self.path_save_data):
+            alias_province = json.load(open(self.path_save_data + name_file, "r", encoding="utf-8"))
+        else:
+            alias_province = []
+        for each_province in alias_province:
+            list_alias = each_province["tags"].copy() + each_province["simple_tags"].copy()
+            list_alias_new = []
+            for al in list_alias:
+                if len(al) <= 2:
+                    continue
+                else:
+                    list_alias_new.append(al)
+            # list_alias_new = [alias for alias in list_alias if len(alias) > 2]
+            dict_province_alias[int(each_province["ProvinceCode"])] = list_alias_new
+        self.dict_province_alias = dict_province_alias
+        return self.dict_province_alias
+
+    def load_alias_name_district(self):
+        dict_district_alias = {}
+        name_file = "alias_district.json"
+        if name_file in os.listdir(self.path_save_data):
+            alias_district = json.load(open(self.path_save_data + name_file, "r", encoding="utf-8"))
+        else:
+            alias_district = []
+        for each_district in alias_district:
+            list_alias = each_district["tags"].copy() + each_district["simple_tags"].copy()
+            list_alias_new = []
+            for al in list_alias:
+                if len(al) <= 2:
+                    continue
+                else:
+                    list_alias_new.append(al)
+            # list_alias_new = [alias for alias in list_alias if len(alias) > 2]
+            dict_district_alias[int(each_district["DistrictCode"])] = list_alias_new
+        self.dict_district_alias = dict_district_alias
+        return self.dict_district_alias
+
+    def load_alias_name_ward(self):
+        dict_ward_alias = {}
+        name_file = "alias_ward.json"
+        if name_file in os.listdir(self.path_save_data):
+            alias_ward = json.load(open(self.path_save_data + name_file, "r", encoding="utf-8"))
+        else:
+            alias_ward = []
+        for each_ward in alias_ward:
+            list_alias = each_ward["tags"].copy() + each_ward["simple_tags"].copy()
+            list_alias_new = []
+            for al in list_alias:
+                if len(al) <= 2:
+                    continue
+                else:
+                    list_alias_new.append(al)
+            # list_alias_new = [alias for alias in list_alias if len(alias) > 2]
+            dict_ward_alias[int(each_ward["WardCode"])] = list_alias_new
+        self.dict_ward_alias = dict_ward_alias
+        return self.dict_ward_alias
+
     @staticmethod
     def find_address_similarity(address_name: str, list_address_compare: list, scores: float, n_gram=3):
         a_ngram = text_ngram(str(address_name), n_gram)
@@ -180,6 +263,15 @@ class ConvertStreetCode:
             return "Error"
         return street_name.strip()
 
+    @staticmethod
+    def preprocess_street_name_for_bds(street_name):
+        if re.search(r"(Đường Số|Đường kênh|(^Đường [0-9]+\d{0,2}$))", street_name, flags=re.IGNORECASE) is not None:
+            return street_name
+        if re.search(r"(^Đường [^0-9]+)", street_name, flags=re.IGNORECASE) is not None:
+            street_name = re.sub(r"Đường", "", street_name, flags=re.IGNORECASE)
+            return street_name.strip()
+        return street_name
+
     def process_data_street(self, data_government, data_collect):
         data_total_street = []
         number_road = 0
@@ -230,7 +322,7 @@ class ConvertStreetCode:
 
                 # LOOP FOR ALL WARD IN DISTRICT
                 for ward in ward_in_district_csv:
-                    # FIND CORRESPONDING WARD IN DISTRICT IN GOVERMENT FILE
+                    # FIND CORRESPONDING WARD IN DISTRICT IN GOVERNMENT FILE
                     ward_similarity = self.find_address_similarity(ward, ward_in_district_goverment, 0.6)
                     if ward_similarity is None:
                         continue
@@ -250,6 +342,7 @@ class ConvertStreetCode:
                         continue
                     list_new_street_in_ward = []
                     for each_street in street_in_ward:
+                        street_before_process = each_street.lower()
                         new_data_street = {}
                         if self.find_address_similarity(each_street, list_new_street_in_ward, 0.7) is None:
                             list_new_street_in_ward.append(each_street)
@@ -259,23 +352,32 @@ class ConvertStreetCode:
                             new_data_street["DistrictCode"] = district_code
                             new_data_street["Ward"] = ward_name
                             new_data_street["WardCode"] = ward_code
-                            street_name = process_invalid_word(each_street)
+                            street_name = process_invalid_word(each_street).lower()
+                            street_name, alias_street = self.find_name_and_alias_name(street_name)
+                            alias_street.append(street_before_process)
                             new_data_street["Street"] = street_name.title()
+                            new_data_street["tags"] = alias_street
                             string_hash = province_name + district_name + ward_name + new_data_street["Street"]
                             address_id = hashlib.md5(string_hash.encode("utf-8")).hexdigest()
                             if address_id in self.list_street_id:
                                 continue
                             street_code = self.select_code_for_street()
                             if re.search(r"(Tháng|\/)", new_data_street["Street"], flags=re.IGNORECASE) is not None:
-                                new_data_street["tags"] = create_alias_name(new_data_street["Street"])
-                            else:
-                                new_data_street["tags"] = []
+                                new_data_street["tags"] = new_data_street["tags"] + \
+                                                          create_alias_name(new_data_street["Street"])
                             new_data_street["StreetCode"] = street_code
                             new_data_street["_id"] = address_id
                             self.list_street_id.append(address_id)
                             data_total_street.append(new_data_street)
                             number_road += 1
         return data_total_street
+
+    def find_name_and_alias_name(self, street_name):
+        list_alias = []
+        if street_name in self.dict_street_alias.keys():
+            list_alias = self.dict_street_alias[street_name].copy()
+            return street_name, list_alias
+        return street_name, list_alias
 
     def select_code_for_street(self):
         if not len(self.list_street_code_not_selected):
@@ -290,14 +392,17 @@ class ConvertStreetCode:
         data_all_street_in_bds = []
         for each_district in self.street_file:
             for each_street in each_district:
+                street_before_process = each_street["Street"].lower()
+                street_name = self.preprocess_street_name_for_bds(each_street["Street"]).lower()
+                street_name, alias_street = self.find_name_and_alias_name(street_name)
+                alias_street.append(street_before_process)
                 string_hash = each_street["Province"] + each_street["District"] + each_street["Street"]
                 address_id = hashlib.md5(string_hash.encode("utf-8")).hexdigest()
                 if address_id in self.list_street_id:
                     continue
                 if re.search(r"(Tháng|\/)", each_street["Street"], flags=re.IGNORECASE) is not None:
-                    each_street["tags"] = create_alias_name(each_street["Street"])
-                else:
-                    each_street["tags"] = []
+                    alias_street = alias_street + create_alias_name(each_street["Street"])
+                each_street["tags"] = alias_street
                 street_code = self.select_code_for_street()
                 each_street["StreetCode"] = street_code
                 each_street["_id"] = address_id
@@ -312,6 +417,12 @@ class ConvertStreetCode:
         for each in range(len(dataframe_province)):
             each_province = dataframe_province.iloc[each]
             new_province = {"Province": each_province["Tỉnh / Thành Phố"], "ProvinceCode": int(each_province["Mã TP"])}
+            try:
+                tag_province = self.dict_province_alias[int(each_province["Mã TP"])]
+            except KeyError:
+                tag_province = []
+            tag_province.append(new_province["Province"])
+            new_province["tags"] = tag_province
             data_province.append(new_province)
         self.save_data(data_province, "final_province.json")
         return data_province
@@ -323,6 +434,12 @@ class ConvertStreetCode:
             each_district = dataframe_district.iloc[each]
             new_district = {"Province": each_district["Tỉnh / Thành Phố"], "ProvinceCode": int(each_district["Mã TP"]),
                             "District": each_district["Quận Huyện"], "DistrictCode": int(each_district["Mã QH"])}
+            try:
+                tag_district = self.dict_district_alias[int(each_district["Mã QH"])]
+            except KeyError:
+                tag_district = []
+            tag_district.append(new_district["District"])
+            new_district["tags"] = tag_district
             data_district.append(new_district)
         self.save_data(data_district, "final_district.json")
         return data_district
@@ -341,6 +458,12 @@ class ConvertStreetCode:
                 new_ward["WardCode"] = int(each_ward["Mã"])
             except:
                 continue
+            try:
+                tag_ward = self.dict_ward_alias[int(each_ward["Mã"])]
+            except KeyError:
+                tag_ward = []
+            tag_ward.append(new_ward["Ward"])
+            new_ward["tags"] = tag_ward
             data_ward.append(new_ward)
         # print(data_district)
         self.save_data(data_ward, "final_ward.json")
@@ -349,10 +472,15 @@ class ConvertStreetCode:
         json.dump(data, open(self.path_save_data + name_file, "w", encoding="utf-8"), indent=4, ensure_ascii=False)
 
     def convert_data(self):
+        self.logger.info("START CONVERT STREET CODE")
         self.load_street_json_file()
         self.load_vn_street_xls_file()
         self.load_hcm_street_csv_file()
         self.load_address_government()
+        self.load_alias_name_province()
+        self.load_alias_name_district()
+        self.load_alias_name_ward()
+        self.load_alias_name_street()
         self.process_data_province()
         self.process_data_district()
         self.process_data_ward()
@@ -364,6 +492,7 @@ class ConvertStreetCode:
         self.total_data = self.total_data + self.process_data_street(self.address_government, self.hcm_road_excel)
         self.total_data = self.total_data + self.process_data_street_in_bds()
         self.save_data(self.total_data, "final_street.json")
+        self.logger.info("FINISH CONVERT STREET CODE")
 
 
 if __name__ == "__main__":

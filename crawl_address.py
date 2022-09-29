@@ -7,6 +7,7 @@ import time
 import os
 import re
 import shutil
+import logging
 
 from service.get_provinces_code import GetProvinceCode
 from service.get_district_in_city import GetDistrictCode
@@ -18,18 +19,21 @@ from service.convert_district_code import ConvertDistrictCode
 from service.convert_ward_code import ConvertWardtCode
 from service.convert_street_code import ConvertStreetCode
 from service.convert_village_code import ConvertVillageCode
+from config.config import Config
 
 
 class CrawlAddress(Thread):
 
-    def __init__(self, path_save_data: str, number_crawler):
+    def __init__(self):
         super(CrawlAddress, self).__init__()
-        self.path_save_data = self.preprocess_directory_save_data(path_save_data)
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.config = Config()
+        self.path_save_data = self.preprocess_directory_save_data(self.config.path_save_data.replace("\\", "/"))
         self.province_queue = Queue()
         self.district_queue_1 = Queue()
         self.district_queue_2 = Queue()
         self.flag_district = False
-        self.number_crawler = number_crawler
+        self.number_crawler = self.config.number_of_crawler
 
     @staticmethod
     def preprocess_directory_save_data(directory):
@@ -38,7 +42,8 @@ class CrawlAddress(Thread):
         return directory
 
     def crawler_province(self):
-        print("START CRAWLER PROVINCE")
+
+        self.logger.info("START CRAWLER PROVINCE")
         province_code = GetProvinceCode(self.path_save_data)
         province_code.get_all_code_city()
         province_data = province_code.data
@@ -47,7 +52,7 @@ class CrawlAddress(Thread):
         convert_province.process_data()
         for each in convert_province.data:
             self.province_queue.put(each)
-        print("DONE PROVINCE")
+        self.logger.info("DONE PROVINCE")
 
     def crawler_district(self):
         if not self.province_queue.qsize():
@@ -92,8 +97,8 @@ class CrawlAddress(Thread):
         street_code.save_data(street_data)
 
     def thread_crawler_district(self):
-        print("START CRAWLER DISTRICT")
-        print(f"NUMBER OF PROVINCE {self.province_queue.qsize()}")
+        self.logger.info("START CRAWLER DISTRICT")
+        self.logger.info(f"NUMBER OF PROVINCE {self.province_queue.qsize()}")
         while True:
             if not self.province_queue.qsize():
                 break
@@ -116,10 +121,10 @@ class CrawlAddress(Thread):
         for each in convert_district.data:
             self.district_queue_1.put(each)
             self.district_queue_2.put(each)
-        print("DONE DISTRICT")
+        self.logger.info("FINISH CRAWLER DISTRICT")
 
     def thread_crawler_ward(self):
-        print("START CRAWLER WARD")
+        self.logger.info("START CRAWLER WARD")
         while True:
             if (not self.district_queue_1.qsize()) and self.flag_district:
                 break
@@ -137,10 +142,10 @@ class CrawlAddress(Thread):
                   indent=4, ensure_ascii=False)
         convert_ward = ConvertWardtCode(self.path_save_data)
         convert_ward.process_data()
-        print("DONE WARD")
+        self.logger.info("FINISH CRAWLER WARD")
 
     def thread_crawler_street(self):
-        print("START CRAWLER STREET")
+        self.logger.info("START CRAWLER STREET")
         while True:
             if (not self.district_queue_2.qsize()) and self.flag_district:
                 break
@@ -157,20 +162,21 @@ class CrawlAddress(Thread):
             list_street.append(data)
         json.dump(list_street, open(self.path_save_data + "street.json", "w", encoding="utf-8"),
                   indent=4, ensure_ascii=False)
-        print("DONE STREET")
+        self.logger.info("FINISH CRAWLER STREET")
 
     def thread_download_excel(self):
+        self.logger.info("START DOWNLOAD ADDRESS FROM GOVERNMENT")
         download = DownloadExcelFile(self.path_save_data)
         download.download_file()
-        print("DONE DOWNLOAD EXCEL")
+        self.logger.info("FINISH DOWNLOAD ADDRESS FROM GOVERNMENT")
 
     def create_folder_save_data(self):
         os.makedirs(self.path_save_data, exist_ok=True)
 
     def remove_file_not_use(self):
         list_file = os.listdir(self.path_save_data)
-        if "street.json" in list_file:
-            os.remove(self.path_save_data + "street.json")
+        # if "street.json" in list_file:
+        #     os.remove(self.path_save_data + "street.json")
         if "provinces.json" in list_file:
             os.remove(self.path_save_data + "provinces.json")
         if "district.json" in list_file:
@@ -178,9 +184,14 @@ class CrawlAddress(Thread):
         if "streets" in list_file:
             shutil.rmtree(self.path_save_data + "streets")
         if "districts" in list_file:
-            shutil.rmtree(self.path_save_data + "districts" )
+            shutil.rmtree(self.path_save_data + "districts")
+        for file_name in os.listdir(self.path_save_data):
+            if re.search(r"^Danh", file_name) is not None:
+                file_government = file_name
+                os.remove(self.path_save_data + file_government)
 
     def run(self):
+        self.logger.info(f"START SERVICE UPDATE ADDRESS")
         self.create_folder_save_data()
         # DOWNLOAD EXCEL
         download_excel_crawler = threading.Thread(target=self.thread_download_excel)
@@ -196,13 +207,13 @@ class CrawlAddress(Thread):
         district_crawler.join()
         # CRAWL WARD AND STREET
         # ward_crawler = threading.Thread(target=self.thread_crawler_ward)
-        street_crawler = threading.Thread(target=self.thread_crawler_street)
         # while not self.district_queue_1.qsize():
         #     pass
         # ward_crawler.start()
+        # ward_crawler.join()
+        street_crawler = threading.Thread(target=self.thread_crawler_street)
         while not self.district_queue_2.qsize():
             pass
-        # ward_crawler.join()
         street_crawler.start()
         street_crawler.join()
         convert_street = ConvertStreetCode(self.path_save_data)
@@ -216,13 +227,9 @@ class CrawlAddress(Thread):
         self.remove_file_not_use()
 
 
-
 if __name__ == "__main__":
-    print(f" Start: {time.ctime()}")
-    path_save_data = os.getcwd().replace("\\", "/") + "/data"
-    crawler_address = CrawlAddress(path_save_data, 5)
+    crawler_address = CrawlAddress()
     crawler_address.start()
     crawler_address.join()
-    print("DONE")
-    print(f" End: {time.ctime()}")
+
 
