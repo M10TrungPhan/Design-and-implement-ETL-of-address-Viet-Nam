@@ -1,0 +1,107 @@
+[
+    {
+        "DistrictCode": 415,
+        "District": "Bến Lức",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 416,
+        "District": "Cần Đước",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 417,
+        "District": "Cần Giuộc",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 418,
+        "District": "Châu Thành",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 419,
+        "District": "Đức Hòa",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 420,
+        "District": "Đức Huệ",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 421,
+        "District": "Mộc Hóa",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 422,
+        "District": "Tân Hưng",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 423,
+        "District": "Tân Thạnh",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 424,
+        "District": "Tân Trụ",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 425,
+        "District": "Thạnh Hóa",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 426,
+        "District": "Thủ Thừa",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 427,
+        "District": "Vĩnh Hưng",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 429,
+        "District": "Tân An",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "DistrictCode": 724,
+        "District": "Kiến Tường",
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    }
+]

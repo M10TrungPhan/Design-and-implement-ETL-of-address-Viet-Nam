@@ -1,0 +1,72 @@
+[
+    {
+        "DistrictCode": 104,
+        "District": "Hiệp Hòa",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 105,
+        "District": "Lạng Giang",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 106,
+        "District": "Lục Nam",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 107,
+        "District": "Lục Ngạn",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 108,
+        "District": "Sơn Động",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 109,
+        "District": "Tân Yên",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 110,
+        "District": "Việt Yên",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 111,
+        "District": "Yên Dũng",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 112,
+        "District": "Yên Thế",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "DistrictCode": 113,
+        "District": "Bắc Giang",
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    }
+]

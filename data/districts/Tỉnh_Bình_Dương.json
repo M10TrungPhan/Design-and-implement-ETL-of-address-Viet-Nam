@@ -1,0 +1,65 @@
+[
+    {
+        "DistrictCode": 156,
+        "District": "Bến Cát",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 157,
+        "District": "Dầu Tiếng",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 158,
+        "District": "Dĩ An",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 159,
+        "District": "Phú Giáo",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 160,
+        "District": "Tân Uyên",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 161,
+        "District": "Thuận An",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 163,
+        "District": "Thủ Dầu Một",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 716,
+        "District": "Bàu Bàng",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "DistrictCode": 730,
+        "District": "Bắc Tân Uyên",
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    }
+]

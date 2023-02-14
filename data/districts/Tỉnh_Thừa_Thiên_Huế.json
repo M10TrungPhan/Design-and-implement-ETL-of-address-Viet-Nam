@@ -1,0 +1,65 @@
+[
+    {
+        "DistrictCode": 633,
+        "District": "A Lưới",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 634,
+        "District": "Hương Thủy",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 635,
+        "District": "Hương Trà",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 636,
+        "District": "Nam Đông",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 637,
+        "District": "Phong Điền",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 638,
+        "District": "Phú Lộc",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 639,
+        "District": "Phú Vang",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 640,
+        "District": "Quảng Điền",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "DistrictCode": 641,
+        "District": "Huế",
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "DistrictCode": 164,
+        "District": "Bình Long",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 165,
+        "District": "Bù Đăng",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 166,
+        "District": "Bù Đốp",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 167,
+        "District": "Chơn Thành",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 168,
+        "District": "Đồng Phú",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 169,
+        "District": "Lộc Ninh",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 170,
+        "District": "Phước Long",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 171,
+        "District": "Đồng Xoài",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 698,
+        "District": "Hớn Quản",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 699,
+        "District": "Bù Gia Mập",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "DistrictCode": 728,
+        "District": "Phú Riềng",
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    }
+]

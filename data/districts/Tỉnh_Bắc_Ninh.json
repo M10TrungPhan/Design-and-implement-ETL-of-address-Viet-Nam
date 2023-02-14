@@ -1,0 +1,58 @@
+[
+    {
+        "DistrictCode": 129,
+        "District": "Gia Bình",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "DistrictCode": 130,
+        "District": "Lương Tài",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "DistrictCode": 131,
+        "District": "Quế Võ",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "DistrictCode": 132,
+        "District": "Thuận Thành",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "DistrictCode": 133,
+        "District": "Tiên Du",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "DistrictCode": 134,
+        "District": "Từ Sơn",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "DistrictCode": 135,
+        "District": "Yên Phong",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "DistrictCode": 136,
+        "District": "Bắc Ninh",
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "DistrictCode": 503,
+        "District": "Bắc Trà My",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 504,
+        "District": "Đại Lộc",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 505,
+        "District": "Điện Bàn",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 506,
+        "District": "Đông Giang",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 507,
+        "District": "Duy Xuyên",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 508,
+        "District": "Hiệp Đức",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 509,
+        "District": "Nam Giang",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 510,
+        "District": "Nam Trà My",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 511,
+        "District": "Núi Thành",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 512,
+        "District": "Phú Ninh",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 513,
+        "District": "Phước Sơn",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 514,
+        "District": "Quế Sơn",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 515,
+        "District": "Tây Giang",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 516,
+        "District": "Thăng Bình",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 517,
+        "District": "Tiên Phước",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 519,
+        "District": "Tam Kỳ",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 520,
+        "District": "Hội An",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "DistrictCode": 694,
+        "District": "Nông Sơn",
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "DistrictCode": 322,
+        "District": "Cao Phong",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 323,
+        "District": "Đà Bắc",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 324,
+        "District": "Kim Bôi",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 326,
+        "District": "Lạc Sơn",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 327,
+        "District": "Lạc Thủy",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 328,
+        "District": "Lương Sơn",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 329,
+        "District": "Mai Châu",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 330,
+        "District": "Tân Lạc",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 331,
+        "District": "Yên Thủy",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "DistrictCode": 332,
+        "District": "Hòa Bình",
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    }
+]

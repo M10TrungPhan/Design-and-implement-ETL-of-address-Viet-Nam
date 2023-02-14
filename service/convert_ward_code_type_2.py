@@ -44,9 +44,8 @@ class ConvertWardCodeType2:
             # list_alias_new = [alias for alias in list_alias if len(alias) > 2]
             dict_ward_alias[int(each["WardCode"])] = list_alias_new
         self.dict_ward_alias = dict_ward_alias
-        print(self.dict_ward_alias)
+        # print(self.dict_ward_alias)
         return self.dict_ward_alias
-
 
     @staticmethod
     def preprocess_district_name(district_name):
@@ -201,9 +200,9 @@ class ConvertWardCodeType2:
                     # test_dataframe_ward_collect = self.select_address_dataframe(ward_name,
                     #                                                        test_dataframe_district_collect, "name_ward")
 
-        print(number_ward)
-        print(number_district)
-        print(number_ward_alias)
+        # print(number_ward)
+        # print(number_district)
+        # print(number_ward_alias)
         return data_total_ward
 
 

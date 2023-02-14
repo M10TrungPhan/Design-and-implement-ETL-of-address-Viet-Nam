@@ -1,0 +1,212 @@
+[
+    {
+        "DistrictCode": 1,
+        "District": "Hoàn Kiếm",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 2,
+        "District": "Ba Đình",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 3,
+        "District": "Đống Đa",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 4,
+        "District": "Hai Bà Trưng",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 5,
+        "District": "Thanh Xuân",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 6,
+        "District": "Tây Hồ",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 7,
+        "District": "Cầu Giấy",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 8,
+        "District": "Hoàng Mai",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 9,
+        "District": "Long Biên",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 10,
+        "District": "Đông Anh",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 11,
+        "District": "Gia Lâm",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 12,
+        "District": "Sóc Sơn",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 13,
+        "District": "Thanh Trì",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 14,
+        "District": "Nam Từ Liêm",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 15,
+        "District": "Hà Đông",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 16,
+        "District": "Sơn Tây",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 17,
+        "District": "Mê Linh",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 18,
+        "District": "Ba Vì",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 19,
+        "District": "Phúc Thọ",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 20,
+        "District": "Đan Phượng",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 21,
+        "District": "Hoài Đức",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 22,
+        "District": "Quốc Oai",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 23,
+        "District": "Thạch Thất",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 24,
+        "District": "Chương Mỹ",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 25,
+        "District": "Thanh Oai",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 26,
+        "District": "Thường Tín",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 27,
+        "District": "Phú Xuyên",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 28,
+        "District": "Ứng Hòa",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 29,
+        "District": "Mỹ Đức",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "DistrictCode": 718,
+        "District": "Bắc Từ Liêm",
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "DistrictCode": 303,
+        "District": "Bình Giang",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 304,
+        "District": "Cẩm Giàng",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 305,
+        "District": "Chí Linh",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 306,
+        "District": "Gia Lộc",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 307,
+        "District": "Kim Thành",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 308,
+        "District": "Kinh Môn",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 309,
+        "District": "Nam Sách",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 310,
+        "District": "Ninh Giang",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 311,
+        "District": "Thanh Hà",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 312,
+        "District": "Thanh Miện",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 313,
+        "District": "Tứ Kỳ",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "DistrictCode": 314,
+        "District": "Hải Dương",
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    }
+]

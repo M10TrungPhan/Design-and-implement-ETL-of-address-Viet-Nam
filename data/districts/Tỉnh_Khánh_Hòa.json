@@ -1,0 +1,65 @@
+[
+    {
+        "DistrictCode": 343,
+        "District": "Cam Lâm",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 344,
+        "District": "Diên Khánh",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 345,
+        "District": "Khánh Sơn",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 346,
+        "District": "Khánh Vĩnh",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 347,
+        "District": "Ninh Hòa",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 348,
+        "District": "Trường Sa",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 349,
+        "District": "Vạn Ninh",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 350,
+        "District": "Nha Trang",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "DistrictCode": 351,
+        "District": "Cam Ranh",
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    }
+]

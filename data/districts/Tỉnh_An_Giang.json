@@ -1,0 +1,79 @@
+[
+    {
+        "DistrictCode": 85,
+        "District": "An Phú",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 86,
+        "District": "Châu Phú",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 87,
+        "District": "Châu Thành",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 88,
+        "District": "Chợ Mới",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 89,
+        "District": "Tri Tôn",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 90,
+        "District": "Phú Tân",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 91,
+        "District": "Tân Châu",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 92,
+        "District": "Thoại Sơn",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 93,
+        "District": "Tịnh Biên",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 94,
+        "District": "Long Xuyên",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "DistrictCode": 95,
+        "District": "Châu Đốc",
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    }
+]

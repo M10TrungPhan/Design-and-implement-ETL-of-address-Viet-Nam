@@ -1,0 +1,58 @@
+[
+    {
+        "DistrictCode": 45,
+        "District": "Cẩm Lệ",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "DistrictCode": 46,
+        "District": "Hải Châu",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "DistrictCode": 47,
+        "District": "Liên Chiểu",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "DistrictCode": 48,
+        "District": "Ngũ Hành Sơn",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "DistrictCode": 49,
+        "District": "Sơn Trà",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "DistrictCode": 50,
+        "District": "Thanh Khê",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "DistrictCode": 51,
+        "District": "Hòa Vang",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "DistrictCode": 52,
+        "District": "Hoàng Sa",
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    }
+]

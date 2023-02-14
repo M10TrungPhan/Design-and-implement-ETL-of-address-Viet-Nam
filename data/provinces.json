@@ -1,0 +1,317 @@
+[
+    {
+        "ProvinceCode": 79,
+        "Province": "Thành phố Hồ Chí Minh",
+        "StandFor": "SG"
+    },
+    {
+        "ProvinceCode": 1,
+        "Province": "Thành phố Hà Nội",
+        "StandFor": "HN"
+    },
+    {
+        "ProvinceCode": 48,
+        "Province": "Thành phố Đà Nẵng",
+        "StandFor": "DDN"
+    },
+    {
+        "ProvinceCode": 74,
+        "Province": "Tỉnh Bình Dương",
+        "StandFor": "BD"
+    },
+    {
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "ProvinceCode": 56,
+        "Province": "Tỉnh Khánh Hòa",
+        "StandFor": "KH"
+    },
+    {
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "ProvinceCode": 80,
+        "Province": "Tỉnh Long An",
+        "StandFor": "LA"
+    },
+    {
+        "ProvinceCode": 49,
+        "Province": "Tỉnh Quảng Nam",
+        "StandFor": "QNA"
+    },
+    {
+        "ProvinceCode": 77,
+        "Province": "Tỉnh Bà Rịa Vũng Tàu",
+        "StandFor": "VT"
+    },
+    {
+        "ProvinceCode": 66,
+        "Province": "Tỉnh Đắk Lắk",
+        "StandFor": "DDL"
+    },
+    {
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "ProvinceCode": 68,
+        "Province": "Tỉnh Lâm Đồng",
+        "StandFor": "LDD"
+    },
+    {
+        "ProvinceCode": 46,
+        "Province": "Tỉnh Thừa Thiên Huế",
+        "StandFor": "TTH"
+    },
+    {
+        "ProvinceCode": 91,
+        "Province": "Tỉnh Kiên Giang",
+        "StandFor": "KG"
+    },
+    {
+        "ProvinceCode": 27,
+        "Province": "Tỉnh Bắc Ninh",
+        "StandFor": "BN"
+    },
+    {
+        "ProvinceCode": 22,
+        "Province": "Tỉnh Quảng Ninh",
+        "StandFor": "QNI"
+    },
+    {
+        "ProvinceCode": 38,
+        "Province": "Tỉnh Thanh Hóa",
+        "StandFor": "TH"
+    },
+    {
+        "ProvinceCode": 40,
+        "Province": "Tỉnh Nghệ An",
+        "StandFor": "NA"
+    },
+    {
+        "ProvinceCode": 30,
+        "Province": "Tỉnh Hải Dương",
+        "StandFor": "HD"
+    },
+    {
+        "ProvinceCode": 64,
+        "Province": "Tỉnh Gia Lai",
+        "StandFor": "GL"
+    },
+    {
+        "ProvinceCode": 70,
+        "Province": "Tỉnh Bình Phước",
+        "StandFor": "BP"
+    },
+    {
+        "ProvinceCode": 33,
+        "Province": "Tỉnh Hưng Yên",
+        "StandFor": "HY"
+    },
+    {
+        "ProvinceCode": 52,
+        "Province": "Tỉnh Bình Định",
+        "StandFor": "BDD"
+    },
+    {
+        "ProvinceCode": 82,
+        "Province": "Tỉnh Tiền Giang",
+        "StandFor": "TG"
+    },
+    {
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "ProvinceCode": 24,
+        "Province": "Tỉnh Bắc Giang",
+        "StandFor": "BG"
+    },
+    {
+        "ProvinceCode": 17,
+        "Province": "Tỉnh Hòa Bình",
+        "StandFor": "HB"
+    },
+    {
+        "ProvinceCode": 89,
+        "Province": "Tỉnh An Giang",
+        "StandFor": "AG"
+    },
+    {
+        "ProvinceCode": 26,
+        "Province": "Tỉnh Vĩnh Phúc",
+        "StandFor": "VP"
+    },
+    {
+        "ProvinceCode": 72,
+        "Province": "Tỉnh Tây Ninh",
+        "StandFor": "TNI"
+    },
+    {
+        "ProvinceCode": 19,
+        "Province": "Tỉnh Thái Nguyên",
+        "StandFor": "TN"
+    },
+    {
+        "ProvinceCode": 10,
+        "Province": "Tỉnh Lào Cai",
+        "StandFor": "LCA"
+    },
+    {
+        "ProvinceCode": 36,
+        "Province": "Tỉnh Nam Định",
+        "StandFor": "NDD"
+    },
+    {
+        "ProvinceCode": 51,
+        "Province": "Tỉnh Quảng Ngãi",
+        "StandFor": "QNG"
+    },
+    {
+        "ProvinceCode": 83,
+        "Province": "Tỉnh Bến Tre",
+        "StandFor": "BTR"
+    },
+    {
+        "ProvinceCode": 67,
+        "Province": "Tỉnh Đắk Nông",
+        "StandFor": "DNO"
+    },
+    {
+        "ProvinceCode": 96,
+        "Province": "Tỉnh Cà Mau",
+        "StandFor": "CM"
+    },
+    {
+        "ProvinceCode": 86,
+        "Province": "Tỉnh Vĩnh Long",
+        "StandFor": "VL"
+    },
+    {
+        "ProvinceCode": 37,
+        "Province": "Tỉnh Ninh Bình",
+        "StandFor": "NB"
+    },
+    {
+        "ProvinceCode": 25,
+        "Province": "Tỉnh Phú Thọ",
+        "StandFor": "PT"
+    },
+    {
+        "ProvinceCode": 58,
+        "Province": "Tỉnh Ninh Thuận",
+        "StandFor": "NT"
+    },
+    {
+        "ProvinceCode": 54,
+        "Province": "Tỉnh Phú Yên",
+        "StandFor": "PY"
+    },
+    {
+        "ProvinceCode": 35,
+        "Province": "Tỉnh Hà Nam",
+        "StandFor": "HNA"
+    },
+    {
+        "ProvinceCode": 42,
+        "Province": "Tỉnh Hà Tĩnh",
+        "StandFor": "HT"
+    },
+    {
+        "ProvinceCode": 87,
+        "Province": "Tỉnh Đồng Tháp",
+        "StandFor": "DDT"
+    },
+    {
+        "ProvinceCode": 94,
+        "Province": "Tỉnh Sóc Trăng",
+        "StandFor": "ST"
+    },
+    {
+        "ProvinceCode": 62,
+        "Province": "Tỉnh Kon Tum",
+        "StandFor": "KT"
+    },
+    {
+        "ProvinceCode": 44,
+        "Province": "Tỉnh Quảng Bình",
+        "StandFor": "QB"
+    },
+    {
+        "ProvinceCode": 45,
+        "Province": "Tỉnh Quảng Trị",
+        "StandFor": "QT"
+    },
+    {
+        "ProvinceCode": 84,
+        "Province": "Tỉnh Trà Vinh",
+        "StandFor": "TV"
+    },
+    {
+        "ProvinceCode": 93,
+        "Province": "Tỉnh Hậu Giang",
+        "StandFor": "HGI"
+    },
+    {
+        "ProvinceCode": 14,
+        "Province": "Tỉnh Sơn La",
+        "StandFor": "SL"
+    },
+    {
+        "ProvinceCode": 95,
+        "Province": "Tỉnh Bạc Liêu",
+        "StandFor": "BL"
+    },
+    {
+        "ProvinceCode": 15,
+        "Province": "Tỉnh Yên Bái",
+        "StandFor": "YB"
+    },
+    {
+        "ProvinceCode": 8,
+        "Province": "Tỉnh Tuyên Quang",
+        "StandFor": "TQ"
+    },
+    {
+        "ProvinceCode": 11,
+        "Province": "Tỉnh Điện Biên",
+        "StandFor": "DDB"
+    },
+    {
+        "ProvinceCode": 12,
+        "Province": "Tỉnh Lai Châu",
+        "StandFor": "LCH"
+    },
+    {
+        "ProvinceCode": 20,
+        "Province": "Tỉnh Lạng Sơn",
+        "StandFor": "LS"
+    },
+    {
+        "ProvinceCode": 2,
+        "Province": "Tỉnh Hà Giang",
+        "StandFor": "HG"
+    },
+    {
+        "ProvinceCode": 6,
+        "Province": "Tỉnh Bắc Kạn",
+        "StandFor": "BK"
+    },
+    {
+        "ProvinceCode": 4,
+        "Province": "Tỉnh Cao Bằng",
+        "StandFor": "CB"
+    }
+]

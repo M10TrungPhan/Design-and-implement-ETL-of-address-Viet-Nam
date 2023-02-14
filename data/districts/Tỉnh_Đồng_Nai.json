@@ -1,0 +1,79 @@
+[
+    {
+        "DistrictCode": 236,
+        "District": "Cẩm Mỹ",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 237,
+        "District": "Định Quán",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 238,
+        "District": "Long Thành",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 239,
+        "District": "Nhơn Trạch",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 240,
+        "District": "Tân Phú",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 241,
+        "District": "Thống Nhất",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 242,
+        "District": "Trảng Bom",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 243,
+        "District": "Vĩnh Cửu",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 244,
+        "District": "Xuân Lộc",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 245,
+        "District": "Biên Hòa",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    },
+    {
+        "DistrictCode": 246,
+        "District": "Long Khánh",
+        "ProvinceCode": 75,
+        "Province": "Tỉnh Đồng Nai",
+        "StandFor": "DNA"
+    }
+]

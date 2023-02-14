@@ -1,0 +1,72 @@
+[
+    {
+        "DistrictCode": 172,
+        "District": "Bắc Bình",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 173,
+        "District": "Đảo Phú Quý",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 174,
+        "District": "Đức Linh",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 175,
+        "District": "Hàm Tân",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 176,
+        "District": "Hàm Thuận Bắc",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 177,
+        "District": "Hàm Thuận Nam",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 178,
+        "District": "Tánh Linh",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 179,
+        "District": "Tuy Phong",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 181,
+        "District": "Phan Thiết",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    },
+    {
+        "DistrictCode": 182,
+        "District": "La Gi",
+        "ProvinceCode": 60,
+        "Province": "Tỉnh Bình Thuận",
+        "StandFor": "BTH"
+    }
+]

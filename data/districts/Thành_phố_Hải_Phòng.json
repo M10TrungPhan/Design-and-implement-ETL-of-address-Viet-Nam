@@ -1,0 +1,107 @@
+[
+    {
+        "DistrictCode": 30,
+        "District": "Đồ Sơn",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 31,
+        "District": "Dương Kinh",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 32,
+        "District": "Hải An",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 33,
+        "District": "Hồng Bàng",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 34,
+        "District": "Kiến An",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 35,
+        "District": "Lê Chân",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 36,
+        "District": "Ngô Quyền",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 37,
+        "District": "An Dương",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 38,
+        "District": "An Lão",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 39,
+        "District": "Bạch Long Vĩ",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 40,
+        "District": "Cát Hải",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 41,
+        "District": "Kiến Thụy",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 42,
+        "District": "Thủy Nguyên",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 43,
+        "District": "Tiên Lãng",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    },
+    {
+        "DistrictCode": 44,
+        "District": "Vĩnh Bảo",
+        "ProvinceCode": 31,
+        "Province": "Thành phố Hải Phòng",
+        "StandFor": "HP"
+    }
+]

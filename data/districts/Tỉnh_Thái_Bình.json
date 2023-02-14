@@ -1,0 +1,58 @@
+[
+    {
+        "DistrictCode": 589,
+        "District": "Đông Hưng",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "DistrictCode": 590,
+        "District": "Hưng Hà",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "DistrictCode": 591,
+        "District": "Kiến Xương",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "DistrictCode": 592,
+        "District": "Quỳnh Phụ",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "DistrictCode": 593,
+        "District": "Thái Thuỵ",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "DistrictCode": 594,
+        "District": "Tiền Hải",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "DistrictCode": 595,
+        "District": "Vũ Thư",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    },
+    {
+        "DistrictCode": 596,
+        "District": "Thái Bình",
+        "ProvinceCode": 34,
+        "Province": "Tỉnh Thái Bình",
+        "StandFor": "TB"
+    }
+]

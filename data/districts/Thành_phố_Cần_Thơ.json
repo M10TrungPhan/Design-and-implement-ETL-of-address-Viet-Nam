@@ -1,0 +1,65 @@
+[
+    {
+        "DistrictCode": 77,
+        "District": "Cờ Đỏ",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 78,
+        "District": "Phong Điền",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 79,
+        "District": "Thốt Nốt",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 80,
+        "District": "Vĩnh Thạnh",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 81,
+        "District": "Bình Thủy",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 82,
+        "District": "Cái Răng",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 83,
+        "District": "Ninh Kiều",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 84,
+        "District": "Ô Môn",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    },
+    {
+        "DistrictCode": 704,
+        "District": "Thới Lai",
+        "ProvinceCode": 92,
+        "Province": "Thành phố Cần Thơ",
+        "StandFor": "CT"
+    }
+]
